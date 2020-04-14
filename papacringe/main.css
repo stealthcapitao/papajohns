@@ -1,0 +1,459 @@
+/* --------------------main */
+.logo{
+    position: absolute;
+width: 115px;
+height: 47px;
+left: calc(50% - 115px/2 - 0.5px);
+top: calc(50% - 47px/2 - 167.5px);
+}
+h1{
+    position: absolute;
+width: 532px;
+height: 118px;
+left: calc(50% - 532px/2);
+top: calc(50% - 118px/2 - 93px);
+
+/* Hero */
+
+font-family: 'Lato', sans-serif;
+font-size: 54px;
+line-height: 110%;
+/* or 59px */
+
+text-align: center;
+
+/* brownColor */
+
+color: #70544F;
+}
+h2{
+    position: absolute;
+    width: 380px;
+    height: 74px;
+    left: calc(50% - 380px/2 - 4px);
+    top: calc(50% - 74px/2 + 59px);
+    padding-top: 16px;
+    /* Body Big */
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    
+    text-align: center;
+    
+    /* lightBrownColor */
+    
+    color: #A69895;
+     
+}
+.button{
+    position: absolute;
+width: 174px;
+height: 52px;
+left: calc(50% - 380px/2 + 100px);
+top: calc(50% - 74px/2 + 96px);
+}
+button{
+    border:0px;
+    /* greenColor */
+
+background: #009471;
+border-radius: 26px;
+}
+.buttontext{
+ 
+
+/* Button */
+
+font-family: 'Lato', sans-serif;
+font-size: 14px;
+line-height: 140%;
+/* identical to box height, or 20px */
+
+
+text-transform: uppercase;
+
+/* whiteColor */
+
+color: #FFFFFF;
+}
+
+/* pizzas */
+.pizza{
+    position: absolute;
+width: 200px;
+height: 100px;
+background-size: 200px;
+}
+#pizza1{
+
+    left: calc(50% - 200px/2 - 732px);
+    top: calc(50% - 100px/2 - 324px);
+
+background-image: url(Hawai-Thin.png);
+}
+#pizza2{
+    left: calc(50% - 200px/2 - 524px);
+top: calc(50% - 100px/2 - 324px);
+
+background-image: url(Margarita-Thin.png);
+}
+#pizza3{
+    left: calc(50% - 200px/2 - 316px);
+top: calc(50% - 100px/2 - 324px);
+
+background-image: url(Chicken-BBQ-Thin.png);
+}
+#pizza4{
+    left: calc(50% - 200px/2 - 108px);
+top: calc(50% - 100px/2 - 324px);
+
+background-image: url(Ham-and-mushroom-Thin.png);
+}
+#pizza5{
+    left: calc(50% - 200px/2 + 100px);
+top: calc(50% - 100px/2 - 324px);
+
+background-image: url(Pepperoni-Thin.png);
+}
+#pizza6{
+    left: calc(50% - 200px/2 + 308px);
+top: calc(50% - 100px/2 - 324px);
+
+background-image: url(Ham-and-mushroom-Thin.png);
+}
+#pizza7{
+    left: calc(50% - 200px/2 + 516px);
+top: calc(50% - 100px/2 - 324px);
+
+background-image: url(Hawai-Thin.png);
+}
+#pizza8{
+    left: calc(50% - 200px/2 + 724px);
+top: calc(50% - 100px/2 - 324px);
+
+background-image: url(Ham-and-mushroom-Thin.png);
+}
+#pizza9{
+    left: calc(50% - 200px/2 - 624px);
+top: calc(50% - 100px/2 - 216px);
+
+background-image: url(Mexican-Thin.png);
+}
+#pizza10{
+    left: calc(50% - 200px/2 - 416px);
+top: calc(50% - 100px/2 - 216px);
+
+background-image: url(Chicken-BBQ-Thin.png);
+}
+#pizza11{
+    left: calc(50% - 200px/2 - 208px);
+top: calc(50% - 100px/2 - 216px);
+
+background-image: url(Chicken-BBQ-Thin.png);
+}
+#pizza12{
+    left: calc(50% - 200px/2 + 208px);
+top: calc(50% - 100px/2 - 216px);
+
+background-image: url(Chicken-BBQ-Thin.png);
+}
+#pizza13{
+    left: calc(50% - 200px/2 + 416px);
+top: calc(50% - 100px/2 - 216px);
+
+background-image: url(Margarita-Thin.png);
+}
+#pizza14{
+    left: calc(50% - 200px/2 + 624px);
+top: calc(50% - 100px/2 - 216px);
+
+background-image: url(Chicken-BBQ-Thin.png);
+}
+#pizza15{
+    left: calc(50% - 200px/2 - 732px);
+top: calc(50% - 100px/2 - 108px);
+
+background-image: url(Mexican-Thin.png);
+}
+#pizza16{
+    left: calc(50% - 200px/2 - 524px);
+top: calc(50% - 100px/2 - 108px);
+
+background-image: url(Pepperoni-Thin.png);
+}
+#pizza17{
+    left: calc(50% - 200px/2 - 316px);
+top: calc(50% - 100px/2 - 108px);
+
+background-image: url(Chicken-BBQ-Thin.png);
+}
+#pizza18{
+    left: calc(50% - 200px/2 + 308px);
+top: calc(50% - 100px/2 - 108px);
+
+background-image: url(Margarita-Thin.png);
+}
+#pizza19{
+    left: calc(50% - 200px/2 + 516px);
+top: calc(50% - 100px/2 - 108px);
+
+background-image: url(Chicken-BBQ-Thin.png);
+}
+#pizza20{
+    left: calc(50% - 200px/2 + 724px);
+top: calc(50% - 100px/2 - 108px);
+
+background-image: url(Ham-and-mushroom-Thin.png);
+}
+#pizza21{
+    left: calc(50% - 200px/2 - 624px);
+top: calc(50% - 100px/2);
+
+background-image: url(Pepperoni-Thin.png);
+}
+#pizza22{
+    left: calc(50% - 200px/2 - 416px);
+top: calc(50% - 100px/2);
+
+background-image: url(Mexican-Thin.png);
+}
+#pizza23{
+    left: calc(50% - 200px/2 + 416px);
+top: calc(50% - 100px/2);
+
+background-image: url(Ham-and-mushroom-Thin.png);
+}
+#pizza24{
+    left: calc(50% - 200px/2 + 624px);
+top: calc(50% - 100px/2);
+
+background-image: url(Hawai-Thin.png);
+}
+#pizza25{
+    left: calc(50% - 200px/2 - 732px);
+top: calc(50% - 100px/2 + 108px);
+
+background-image: url(Ham-and-mushroom-Thin.png);
+}
+#pizza26{
+    left: calc(50% - 200px/2 - 524px);
+top: calc(50% - 100px/2 + 108px);
+
+background-image: url(Mexican-Thin.png);
+}
+#pizza27{
+    left: calc(50% - 200px/2 - 316px);
+top: calc(50% - 100px/2 + 108px);
+
+background-image: url(Pepperoni-Thin.png);
+}
+#pizza28{
+    left: calc(50% - 200px/2 + 308px);
+top: calc(50% - 100px/2 + 108px);
+
+background-image: url(Mexican-Thin.png);
+}
+#pizza29{
+    left: calc(50% - 200px/2 + 516px);
+top: calc(50% - 100px/2 + 108px);
+
+background-image: url(Pepperoni-Thin.png);
+}
+#pizza30{
+    left: calc(50% - 200px/2 + 724px);
+top: calc(50% - 100px/2 + 108px);
+
+background-image: url(Mexican-Thin.png);
+}
+#pizza31{
+    left: calc(50% - 200px/2 - 624px);
+top: calc(50% - 100px/2 + 216px);
+
+background-image: url(Mexican-Thin.png);
+}
+#pizza32{
+    left: calc(50% - 200px/2 - 624px);
+top: calc(50% - 100px/2 + 216px);
+
+background-image: url(Pepperoni-Thin.png);
+}
+#pizza33{
+    left: calc(50% - 200px/2 - 416px);
+top: calc(50% - 100px/2 + 216px);
+
+background-image: url(Margarita-Thin.png);
+}
+#pizza34{
+    left: calc(50% - 200px/2 - 208px);
+top: calc(50% - 100px/2 + 216px);
+
+background-image: url(Pepperoni-Thin.png);
+}
+#pizza35{
+    left: calc(50% - 200px/2 + 208px);
+top: calc(50% - 100px/2 + 216px);
+
+background-image: url(Chicken-BBQ-Thin.png);
+}
+#pizza36{
+    left: calc(50% - 200px/2 + 416px);
+top: calc(50% - 100px/2 + 216px);
+
+background-image: url(Pepperoni-Thin.png);
+}
+#pizza37{
+    left: calc(50% - 200px/2 + 624px);
+top: calc(50% - 100px/2 + 216px);
+
+background-image: url(Margarita-Thin.png);
+}
+#pizza38{
+    left: calc(50% - 200px/2 - 732px);
+top: calc(50% - 100px/2 + 324px);
+
+background-image: url(Margarita-Thin.png);
+}
+#pizza39{
+    left: calc(50% - 200px/2 - 524px);
+top: calc(50% - 100px/2 + 324px);
+
+background-image: url(Mexican-Thin.png);
+}
+#pizza40{
+    left: calc(50% - 200px/2 - 316px);
+top: calc(50% - 100px/2 + 324px);
+
+background-image: url(Ham-and-mushroom-Thin.png);
+}
+#pizza41{
+    left: calc(50% - 200px/2 - 108px);
+top: calc(50% - 100px/2 + 324px);
+
+background-image: url(Mexican-Thin.png);
+}
+#pizza42{
+    left: calc(50% - 200px/2 + 100px);
+top: calc(50% - 100px/2 + 324px);
+
+background-image: url(Pepperoni-Thin.png);
+}
+#pizza43{
+    left: calc(50% - 200px/2 + 308px);
+top: calc(50% - 100px/2 + 324px);
+
+background-image: url(Margarita-Thin.png);
+}
+#pizza44{
+    left: calc(50% - 200px/2 + 516px);
+top: calc(50% - 100px/2 + 324px);
+
+background-image: url(Chicken-BBQ-Thin.png);
+}
+#pizza45{
+    left: calc(50% - 200px/2 + 724px);
+top: calc(50% - 100px/2 + 324px);
+
+background-image: url(Mexican-Thin.png);
+}
+/* сообщения */
+.notme{
+    position: absolute;
+width: 164px;
+height: 33px;
+left: 82px;
+top: 10px;
+
+/* greenColor */
+
+background: #009471;
+border-radius: 3px;
+    visibility: hidden;
+}
+.found{
+    position: absolute;
+width: 172px;
+height: 33px;
+left: 82px;
+top: 10px;
+
+/* greenColor */
+
+background: #009471;
+border-radius: 3px;
+visibility: hidden;
+}
+.copied{
+    visibility: hidden;
+}
+/* ------------------------footer */
+.footer{
+    position: absolute;
+width: 1440px;
+height: 82px;
+left: 0px;
+bottom: 0px;
+}
+.copyright{
+    position: absolute;
+left: 12.5%;
+right: 50.56%;
+top: 29.27%;
+bottom: 29.27%;
+
+/* Caption */
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 140%;
+/* or 17px */
+
+
+/* lightBrownColor */
+
+color: #A69895;
+}
+
+.allergic{
+    position: absolute;
+    left: 75.35%;
+    right: 20.21%;
+    top: 29.27%;
+    bottom: 50%;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 140%;
+    /* identical to box height, or 17px */
+    
+    
+    /* brownColor */
+    
+    color: #70544F;
+}
+.rules{
+    position: absolute;
+    left: 81.46%;
+    right: 12.5%;
+    top: 29.27%;
+    bottom: 50%;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 140%;
+    /* identical to box height, or 17px */
+    
+    
+    /* brownColor */
+    
+    color: #70544F;
+}

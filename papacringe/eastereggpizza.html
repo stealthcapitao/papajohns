@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <script src="anime.min.js"></script>
+    <title>Получи пиццу бесплатно</title>
+</head>
+<body>
+    <!-- основная информация -->
+    <div class = "content">
+        <logo class = logo>
+            <img src = "image/logo.png" width="115" height="47">
+        </logo>
+        <div class="text">
+        <h1>Получи пиццу бесплатно</h1>
+        <h2>На этой странице спрятан ваш промокод на бесплатную пиццу при заказе от 899 руб! Попробуйте найти ;) </h2>
+        <div class="button">
+            <button class="button">
+                <h3 class="buttontext">сделать заказ</h3>
+            </button>
+        </div>
+    </div>
+</div>
+<!-- пиццы -->
+<div class="pizza" id="pizza1"></div>
+<button class="pizza" id="pizza2"></button>
+<script>
+    
+        var no = anime({
+            targets:'#pizza2',
+            translateX: -10,
+            easing: 'easeOutElastic(10, 2)',
+            duration:300,
+            autoplay:false,
+            direction: 'alternate',
+            
+        });
+        
+        document.querySelector('#pizza2').onclick = no.restart;
+ 
+  </script>
+<div class="pizza" id="pizza3"></div>
+<button class="pizza" id="pizza4"></button>
+<script>
+    
+    var yes = anime({
+        targets:'#pizza4',
+        translateY: -10,
+        easing: 'easeOutElastic(7, 2)',
+        duration:300,
+        autoplay:false,
+        direction: 'alternate',
+    
+    });
+    
+    document.querySelector('#pizza4').onclick = yes.restart;
+    document.getElementById('form_open').addEventListener('click', toggleForm);
+function toggleForm() {
+  document.getElementById('form').classList.toggle('form--hidden');
+}
+}
+</script>
+<div class="pizza" id="pizza5"></div>
+<div class="pizza" id="pizza6"></div>
+<div class="pizza" id="pizza7"></div>
+<div class="pizza" id="pizza8"></div>
+<div class="pizza" id="pizza9"></div>
+<div class="pizza" id="pizza10"></div>
+<div class="pizza" id="pizza11"></div>
+<div class="pizza" id="pizza12"></div>
+<div class="pizza" id="pizza13"></div>
+<div class="pizza" id="pizza14"></div>
+<div class="pizza" id="pizza15"></div>
+<div class="pizza" id="pizza16"></div>
+<div class="pizza" id="pizza17"></div>
+<div class="pizza" id="pizza18"></div>
+<div class="pizza" id="pizza19"></div>
+<div class="pizza" id="pizza20"></div>
+<div class="pizza" id="pizza21"></div>
+<div class="pizza" id="pizza22"></div>
+<div class="pizza" id="pizza23"></div>
+<div class="pizza" id="pizza24"></div>
+<div class="pizza" id="pizza25"></div>
+<div class="pizza" id="pizza26"></div>
+<div class="pizza" id="pizza27"></div>
+<div class="pizza" id="pizza28"></div>
+<div class="pizza" id="pizza29"></div>
+<div class="pizza" id="pizza30"></div>
+<div class="pizza" id="pizza31"></div>
+<div class="pizza" id="pizza32"></div>
+<div class="pizza" id="pizza33"></div>
+<div class="pizza" id="pizza34"></div>
+<div class="pizza" id="pizza35"></div>
+<div class="pizza" id="pizza36"></div>
+<div class="pizza" id="pizza37"></div>
+<div class="pizza" id="pizza38"></div>
+<div class="pizza" id="pizza39"></div>
+<div class="pizza" id="pizza40"></div>
+<div class="pizza" id="pizza41"></div>
+<div class="pizza" id="pizza42"></div>
+<div class="pizza" id="pizza43"></div>
+<div class="pizza" id="pizza44"></div>
+<div class="pizza" id="pizza45"></div>   
+</div>
+<script>
+    
+</script>
+<!-- сообщения -->
+<div class="notme">
+    <p>Oй-ой, не у меня</p>
+</div>
+
+<form id="form" method="post" action="" class="form form--hidden">
+    <p>Нашли!PF3GS45</p>
+</form>
+<div class="copied">
+    <p>Скопировано!</p>
+</div>
+<!-- футер -->
+<div class="footer">
+    <div class="text">
+    <div class="copyright"><p>Акция действует в Санкт-Петербурге с 01.03.2019 по 31.09.2019 (включительно).© Copyright 2004 — 2019 ООО «4ПАПАС» Все права защищены. Возраст 6+</p></div> 
+        <div class="allergic"><a href="">Аллергены</a></div>
+        <div class="rules"><a href="">Правила акции</a></div>
+</div>
+</div>
+   
+
+</body>
+</html>
